@@ -1,0 +1,138 @@
+CSS
+===
+- CSS stands cascading style sheet.
+- purpose of CSS is to design and styles the web page.
+- html is just creating structure of a web page but css is adding styling to tht web page.
+
+1996 by hakon wium lee 
+
+1996 - CSS1
+1998 - CSS2
+
+- current version of css is CSS3 introduced in 2011.
+
+ways of adding css to html document
+-----------------------------------
+- there are 3 types of css .
+1.inline css 
+2.internal css 
+3.external css
+
+1.inline css :-
+---------------
+- inline css can be added to the html elements by using an attribute called "style" attribute.
+
+ex:-   <h1 style="css properties">Header</h1>
+
+note :- if we use inline for all the elements  then , there will be no resuability of a css properties.
+
+2.internal css :-
+-----------------
+- internal css can be added to the html document by using <style></style> tag inside head tag.
+- embedded css.
+syntax:-     <head>
+                <style>
+                    //css properties...
+                </style>
+            </head>
+
+
+CSS syntax :-
+-------------
+selectors {
+    property1 : value1;
+    property2 : value2;
+}
+
+a 
+{
+    color : red;
+    background-color : blue;
+}
+
+3.external css :-
+------------------
+- external css is a file creating with an extention ".css".
+- it will added to the html document by using link tag.
+
+syntax:-   style.css 
+        <link rel="stylesheet" href="style.css"/>
+
+!important 
+
+selectors 
+---------
+1.simple selectors
+2.combinator selectors 
+3.pseudo-class selectors
+4.pseudo-element selectors 
+5.Attribute selectors 
+
+1.simple selectors
+------------------
+- simple selectors are used to select html elements based id , class , grouping etc..
+
+1.ID selectors
+2.class selectors 
+3.group selectors 
+4.universal selectors 
+5.element selectors
+
+1.ID selectors :-
+-----------------
+- will select based on id attribute value.
+- it is used to target individual / unique elemnt for styling purpose.
+- id can have only one value.
+
+syntax :-    <h1 id="demo">hello</h1>
+
+            css :-      #demo
+                        {
+                            property : value;
+                        }
+
+
+2.class selector
+----------------
+- it will select based on class attribute value.
+- it is used to target multiple elements for styling purpose.
+- class can have multiple space seprated values.
+
+syntax :-     <div class="test">div1</div>
+              <div class="test test1 ">div2</div>
+
+            .test
+            {
+                color:"red";
+            }
+
+            .test1{
+                font-size:32px;
+            }
+
+
+3.group selectors
+-------------------
+- it is used to group the html elements which have a same css properties.
+- elements can be grouped by seprating them with comma(,).
+syntax :-   p , span , #demo , .test 
+            {}
+
+
+4.universal selector:-
+----------------------
+- it indicates with * symbol.
+- it is used to appky the css for the whole doument.
+
+syntax:-    *
+            {
+                css properties
+            }
+
+
+
+
+5. element selector:-
+-----------------------
+- element selector will select the html tags based on name of the tag/element.
+ex:-   h1{} , p{} , div{}

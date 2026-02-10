@@ -1,0 +1,65 @@
+/* ! element selector */
+/* div {
+    background-color: yellow;
+    color: blue;
+    font-size: 24px;
+} */
+
+/* ! id selector */
+/* #demo
+{
+   color: blue;
+   background-color: wheat;
+
+}
+
+#demo1
+{
+    font-size: 24px;
+} */
+
+/* ! class selector */
+/* .test{
+    color: tomato;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+.test3{
+    font-size: 32px;
+}
+.test4{
+    font-family: monospace;
+} */
+
+/* ! group selectors */
+/* p , a , h4 , span , #artBlock{
+    color: red;
+    background-color: yellow;
+} */
+
+/* span{
+    color: red;
+    background-color: yellow;
+}
+a{
+    color: red;
+    background-color: yellow;
+}
+
+h4{
+    color: red;
+    background-color: yellow;
+}
+
+#artBlock{
+    color: red;
+    background-color: yellow;
+} */
+
+
+/* ! universal selector */
+*{
+    background-color: aqua;
+    color: orangered;
+}

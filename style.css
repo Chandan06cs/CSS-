@@ -1,0 +1,10 @@
+h1{
+    color: teal;
+    background-color: thistle;
+    font-size: 20;
+    font-family: cursive;
+}
+
+p{
+    color: blue !important;
+}
